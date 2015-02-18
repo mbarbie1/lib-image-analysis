@@ -10,10 +10,7 @@
 %
 %              Algorithm description:
 %               A labeled image is obtained by thresholding the hessian 
-%               eigenvalues of the image in scalespace. When the
-%               eigenvalues of the Hessian are all negative, the curvature
-%               is negative which means there is a region of maximum
-%               intensity --> a compact bright object.
+%               eigenvalues of the image in scalespace.
 % 
 % INPUT: 
 %           img                     : 3D image (DIPimage image)
@@ -22,13 +19,12 @@
 %           minSizeUnit             : minimal size of the objects in um^3 (scalar)
 %           maxSizeUnit             : maximal size of the objects in um^3 (scalar)
 %           nScale                  : number of scales taken (exponantial
-%                                       spaced scales. (integer)
+%                                       spaced scales.
 %           pixelSize               : pixel size (x,y,z) (vector)
 %           noisThresh              : a small number which serves to remove
 %                                       pixels which have very low Hessian
 %                                       eigenvalues and could be resulting
-%                                       from the noise in the image. 
-%                                       (scalar)
+%                                       from the noise in the image.
 %
 % OUTPUT:
 %           lab                     : labeled image of the segmentation 
