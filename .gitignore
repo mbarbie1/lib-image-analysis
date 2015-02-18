@@ -1,0 +1,9 @@
+# Log files
+*.log
+
+# input data
+input/
+output/
+libExternal/
+libImageAnalysis/
+exe/
