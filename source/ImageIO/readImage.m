@@ -1,5 +1,5 @@
 % This function reads an image from a file of certain format, bitdepth,
-% using either Matlab image toolbox either Bioformats
+% using either Matlab image toolbox either Bioformats (bfmatlab library should be loaded)
 function image = readImage(sourcePath, inputFormat, ioMethod)
 
     switch ioMethod

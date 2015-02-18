@@ -1,10 +1,6 @@
-% TODO
-% TODO
-% TODO
-% TODO
-% TODO
-% TODO
-
+% TODO function does not do the correct scaling!
+%   Rethink the algorithm.
+%
 % This function scales the coordinate system and thereby redefines the
 % ellipsiod principal axes and their dimensions
 function [principalAxes, axesDimensions] = scaleEllipsoidCoords( principalAxes, axesDimensions, scale )

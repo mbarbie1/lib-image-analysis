@@ -2,8 +2,9 @@
 *.log
 
 # input data
-input/
-output/
-libExternal/
-libImageAnalysis/
-exe/
+input/*
+output/*
+libExternal/*
+libImageAnalysis/*
+exe/*
+example/*
